@@ -57,10 +57,12 @@ h1{
     color: #4D5568;
     text-align: uppercase;
     text-transform: uppercase;
-    transition: 0.5s ease-in-out;
+    transition: 0.5s linear;
 } 
 .menu ul li a:hover{ 
 color: #778899;
+border-bottom: 1px solid #4D5568;
+transition-delay: 0.2s;
 }
 /*header end*/
 
@@ -75,7 +77,8 @@ color: #778899;
 	background-color: rgba(79, 81, 83, 0.493);
     width: 25%;
     border-radius: 5px;
-    margin-top: 74px;
+    margin-top: 100px;
+    display: inline-block;
 }
 .b_content h1{
     padding-left: 20px;
@@ -110,4 +113,124 @@ color: #778899;
     outline: 0;
 }
 /*banner end*/
+
+/*about start*/
+.about {
+    background-color: #FFFFFF;
+}
+
+.wrapper_2 {
+    width: 80%;
+    /*border: 1px solid green;*/
+    margin:0 auto;
+    overflow: hidden;
+}
+
+.single {
+    /*border:1px solid red;*/
+    width: 28%;
+    margin: 70px 40px 40px 25px;
+    float: left;
+}
+.single:last-child{
+    margin-right: 0;
+}
+
+.top {
+    /*width: 100%;*/
+}
+.top h2{
+    margin: 0;
+    padding-bottom: 5px;
+    font-family: sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+    color: #CEC6C4;
+    text-align: center;
+    word-spacing: 2px;
+}
+.top img{
+    width: 100%;
+}
+
+.bottom {
+    margin-top: 30px;
+}
+.bottom p{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #666865;
+    text-align: center;
+    line-height: 23px;
+}
+
+.btn {
+    margin: 35px 0 25px 100px;
+    padding: 5px 10px;
+    width: 100px;
+    background: #;
+    background-color: #3E5B7B;
+    color: #ffffff;
+    border-radius: 5px;
+}
+/*about end*/
+
+/*footer start*/
+.footer {
+    background-color: #ffffff;
+}
+
+.wrapper_3 {
+    margin: 0 auto;
+    width: 60%;
+    overflow: hidden;
+    /*border: 1px solid green;*/
+}
+
+.n_text {
+    text-align: center;
+    line-height: 10px;
+}
+.n_text h4{
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #666865;
+}
+.n_text p{
+     font-family: sans-serif;
+    font-size: 12px;
+    color: #666865;
+}
+
+.font_icon {
+    display: inline-block;
+    margin: 20px 0 50px 42%;
+}
+.font_icon a{
+    text-decoration: none;
+    transition: 0.3s;
+    padding: 0 2px;
+}
+
+.fab.fa-facebook-square {
+    font-size: 40px;
+    color: #5066A0;
+}
+
+.fab.fa-twitter-square {
+     font-size: 40px;
+     color: #5066A0;
+}
+
+.fab.fa-google-plus-square {
+     font-size: 40px;
+     color: red;
+}
+
+.fab.fa-instagram-square {
+     font-size: 40px;
+     color: red;
+}
+/*footer end*/
 
